@@ -1,0 +1,201 @@
+.pHero{
+    background-image: url("../../../assets/Packaging/fondo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91vh;
+}
+.pHero div{
+    width: 600px;
+    position: relative;
+    top: 150px;
+    left: 340px;
+}
+.pHero div h1{
+    font-size: 70px;
+    color: #FFDA8A;
+    font-weight: 900;
+}
+.pHero div p{
+    font-size: 20px;
+}
+
+
+
+/* ************** */
+.p1{
+    background-image: url("../../../assets/Packaging/fondo2.png");
+    background-position: center;
+    background-size: cover;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p1 h1{
+    width: 500px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 0;
+    color: #92C95F;
+}
+.p1 .p1-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.p1 .p1-container .caja1{
+    width: 480px;
+    margin-right: 30px;
+}
+.p1 .p1-container .caja2{
+    width: 450px;
+}
+.p1 .p1-container .caja2 img{
+    width: 100%;
+}
+
+
+
+/* ************** */
+.p2{
+    background-image: url("../../../assets/Packaging/fondo3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91vh;
+    display: flex;
+    align-items: center;
+}
+.p2 ul{
+    border: 1px solid black;
+    width: 400px;
+    padding: 40px;
+    position: relative;
+    left: 250px;
+    top: 70px;
+}
+
+
+
+
+
+/* Mobile */
+.packagingM{
+    background-image: url("../../../assets/Packaging/fondo.svg");
+    background-position: center;
+    background-size: cover;
+    height: 91dvh;
+}
+.packagingM div{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+.packagingM div h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #FFDA8A;
+}
+.packagingM div p{
+    font-size: 14px;
+}
+
+
+
+
+/* **************** */
+.packagingM2{
+    background-image: url("../../../assets/Packaging/fondo2.svg");
+    background-position: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    height: 91dvh;
+}
+.packagingM2 h1{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: #92C95F;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.packagingM2 div{
+    width: 75%;
+    margin: 0 auto;
+}
+.packagingM2 div h2{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ****************** */
+.packagingM3{
+    background-image: url("../../../assets/Packaging/fondoM4.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 91dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+}
+.packagingM3 div{
+    width: 75%;
+    margin: 0 auto;
+}
+.packagingM3 div img{
+    width: 100%;
+}
+
+
+
+
+/* ****************** */
+.packagingM4{
+    height: 91dvh;
+    background-image: url("../../../assets/Packaging/fondo3.svg");
+    background-position: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.packagingM4 div{
+    width: 80%;
+    margin: 0 auto;
+    padding: auto;
+    padding: 20px ;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.516);
+}
+.packagingM4 div ul{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: 6px;    
+}
+.packagingM4 div ul li{
+    font-size: 13px;
+}
+.packagingM4 img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}

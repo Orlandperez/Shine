@@ -1,0 +1,144 @@
+.about-pc{
+    background-image: url("../../assets/aboutFondo.png");
+    background-position: 25% 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91dvh;
+    gap: 5rem;
+}
+.about-pc .info{
+    width: 285px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about-pc .info div h2{
+    font-size: 30px;
+}
+.about-pc .info img{
+    width: 350px;
+    position: relative;
+    right:100px;
+}
+.about-pc .info div{
+    width: 400px;
+    position: relative;
+    bottom: 85px;
+    right: 90px;
+}
+.about-pc .info2{
+    width: 575px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+.about-pc .info2 .titulo{
+    background-image: url("../../assets/aboutGlobo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    position: relative;
+    right: 55px;
+}
+.about-pc .info2 .titulo h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.about-pc .info2 .texto{
+    font-size: 19px;
+}
+.about-pc .info2 .software h2{
+    font-size: 30px;
+}
+.about-pc .info2 .software img{
+    width: 400px;
+}
+.about-pc .info3{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:4rem;
+}
+.about-pc .info3 img{
+    width: 100%;
+}
+.about-pc .info3 ul{
+    position: relative;
+    left: 30px;
+}
+.about-pc .info3 ul h2{
+    font-size: 30px;
+}
+
+
+
+/* About mobile */
+.aboutM{
+    background-image: url("../../assets/e.svg");
+    background-size: cover;
+    background-position: center;
+    height: 91dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutM div{
+    height: 60%;
+    width: 80%;
+}
+.aboutM div h1{
+    font-size: 40px;
+    color: #FE9166;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.aboutM2{
+    background-image: url("../../assets/aboutM2.png");
+    background-size: cover;
+    background-position: center;
+    height: 91dvh;
+    padding: 30px 0;
+}
+.aboutM2 div .foto{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.aboutM2 div .container{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.aboutM2 div .container h2{
+    font-size: 18px;
+}
+.aboutM2 div .container ul{
+    position: relative;
+    left: 21px;
+    padding: 5px 0;
+}
+.aboutM2 div .container div{
+    padding: 5px 0;
+}
+.aboutM2 div .container div img{
+    position: relative;
+    right: 15px;
+}

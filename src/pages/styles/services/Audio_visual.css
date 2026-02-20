@@ -1,0 +1,530 @@
+.a-hero{
+    background-image: url("../../../assets/Audio_visual/fondo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91vh;
+}
+.a-hero div{
+    width: 920px;
+    padding: 20px;
+    position: relative;
+    top: 25%;
+    left: 13%;
+}
+.a-hero div h1{
+    font-size: 55px;
+    font-weight: 900;
+    color: #9A95FF;
+}
+
+/* ********************* */
+.a2{
+    background-image: url("../../../assets/Audio_visual/fondo2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.a2 h1{
+    background-color: black;
+    color: white;
+    width: 500px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+.a2 .a2Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a2 .a2Container .info{
+    width: 440px;
+    position: relative;
+    left: 100px;
+}
+.a2 .a2Container .info p{
+    font-size: 16px;
+}
+.a2 .a2Container .info a{
+    color: white;
+    width: 200px;
+    text-align: center;
+    display: block;
+    background-color: black;
+    padding: 20px;
+    border-radius: 40px;
+    font-weight: 700;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+.a2 .a2Container .img{
+    width: 950px;
+    position: relative;
+    left: 150px;
+}
+
+.a2 .a2Container .img .foto1{
+    width: 200px;
+    position: relative;
+    bottom: 280px;
+    left: 150px;
+}
+.a2 .a2Container .img .foto2{
+    width: 200px;
+    position: relative;
+    right: 150px;
+}
+.a2 .a2Container .img .foto3{
+    width: 150px;
+    position: relative;
+    right: 150px;
+}
+.a2 .a2Container .img .foto4{
+    width: 400px;
+    position: relative;
+    right: 180px;
+}
+
+
+
+/* ******************* */
+.a3{
+    background-image: url("../../../assets/Audio_visual/fondo3.png");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.a3 h1{
+    background-color: #1E0049;
+    color: #F1D705;
+    width: 500px;
+    padding: 18px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.a3 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.a3 .container .info{
+    width: 500px;
+}
+.a3 .container .info p{
+    font-size: 17px;
+}
+.a3 .container .info a{
+    background-color: #1E0049;
+    color: #F1D705;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 30px;
+    font-weight: 600;
+    position: relative;
+    top: 110px;
+    text-decoration: none;
+}
+
+.a3 .container .img{
+    width: 900px;
+}
+.a3 .container .img .choco, .choco2, .choco3, .choco4{
+    width: 190px;
+}
+.a3 .container .img .choco5, .choco6{
+    width: 400px;
+}
+.a3 .container .img .choco, .choco2{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    margin: 10px;
+}
+.a3 .container .img .choco3, .choco4{
+    position: relative;
+    top: 370px;
+    right: 370px;
+    margin: 10px;
+}
+.a3 .container .img .choco5{
+    position: relative;
+    bottom: 50px;
+    left: 500px;
+}
+.a3 .container .img .choco6{
+    position: absolute;
+    width: 650px;
+    top: 0%;
+    right: 5px;
+}
+
+
+
+/* *********************** */
+.a4{
+    background-image: url("../../../assets/Audio_visual/fondo4.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+.a4 .info{
+    width: 490px;
+}
+.a4 .info h1{
+    background-color: #E8C7B6;
+    width: 550px;
+    text-align: center;
+    margin: 100px 0 ;
+    padding: 18px 0;
+    position: relative;
+    right: 215px;
+}
+.a4 .info p{
+    font-size: 17px;
+}
+.a4 .info h2{
+    width: 390px;
+}
+.a4 .info a{
+    background-color: #E8C7B6;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 17px 0;
+    border-radius: 30px;
+    font-weight: 700;
+    position: relative;
+    top: 200px;
+    
+    text-decoration: none;
+}
+
+.a4 .img .celu4{
+    width: 470px;
+    position: relative;
+    left: 20px;
+    top: 80px;
+}
+.a4 .img .celu, .celu2, .celu3{
+    width: 170px;
+}
+.a4 .img .celu, .celu3{
+    position: relative;
+    left: 80px;
+    z-index: 20;
+}
+.a4 .img .celu2{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+.audiovisualM{
+    height: 91dvh;
+    background-image: url("../../../assets/Audio_visual/fondoM.svg");
+    background-position: 50% 80%;
+    background-size: cover;
+}
+.audiovisualM div{
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+.audiovisualM div h1{
+    color: #9A95FF;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.audiovisualM div p{
+    font-size: 12px;
+}
+
+
+
+/* **************** */
+.audiovisualM2{
+    background-image: url("../../../assets/Audio_visual/fondoM2.svg");
+    background-size: contain;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: 91dvh;
+    padding-top: 50px;
+}
+.audiovisualM2 h1{
+    color: white;
+    background-color: black;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 26px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.audiovisualM2 div{
+    width: 80%;
+    margin: 0 auto;
+}
+.audiovisualM2 div h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+.audiovisualM2 div p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+/* ********************* */
+.audiovisualM3{
+    background-image: url("../../../assets/Audio_visual/fondoM3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 91dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.audiovisualM3 div{
+    width: 80%;
+    margin: 0 auto;
+}
+.audiovisualM3 div a{
+    position: absolute;
+    color: white;
+    background-color: black;
+    padding: 15px 35px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 30px;
+    top: 33%;
+    z-index: 20;
+}
+.audiovisualM3 div img{
+    width: 100%;
+    position: relative;
+    top: 6%;
+}
+
+
+
+
+/* ***************** */
+.audiovisualM4{
+    background-image: url("../../../assets/Audio_visual/fondoM4.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91dvh;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.audiovisualM4 .img{
+    width: 200px;
+    position: relative;
+    left: 35%;
+}
+.audiovisualM4 .img2{
+    width: 200px;
+    position: relative;
+    bottom: 5%;
+    left: 10%;
+}
+.audiovisualM4 .img3{
+    width: 130px;
+    position: relative;
+    bottom: 5%;
+    left: 56%;
+    bottom: 8%;
+}
+
+
+/* **************** */
+.audiovisualM5{
+    background-image: url("../../../assets/Audio_visual/fondo9.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    height: 91dvh;
+    padding-top: 50px;
+}
+.audiovisualM5 h1{
+    background-color: #1E0049;
+    color: #F1D705;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 26px;
+    border-radius: 5px;
+}
+.audiovisualM5 div{
+    width: 80%;
+    margin: 0 auto;
+}
+.audiovisualM5 div h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0 5px;
+}
+
+
+
+
+/* *************** */
+.audiovisualM6{
+    background-image: url("../../../assets/Audio_visual/fondoM5.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 91dvh;
+    padding-top: 50px;
+}
+.audiovisualM6 div{
+    width: 80%;
+    margin: 0 auto;
+}
+.audiovisualM6 .caja1 a{
+    display: block;
+    width: 130px;
+    background-color: #1E0049;
+    color: #F1D705;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.audiovisualM6 .caja2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+.audiovisualM6 .caja2 img{
+    width: 100%;
+}
+
+
+
+
+
+/* **************** */
+.audiovisualM7 {
+    background-image: url("../../../assets/Audio_visual/fondoM6.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 91dvh;
+    padding-top: 20px;
+}
+.audiovisualM7 img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* **************** */
+.audiovisualM8{
+    background-image: url("../../../assets/Audio_visual/fondoM7.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 91dvh;
+    padding-top: 40px;
+}
+.audiovisualM8 h1{
+    background-color: #E8C7B6;
+    font-size: 26px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.audiovisualM8 div{
+    width: 80%; 
+    margin: 0 auto;
+}
+.audiovisualM8 div h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.audiovisualM8 div a{
+    display: block;
+    background-color: #E8C7B6;
+    color: black;
+    text-decoration: none;
+    padding: 12px 30px;
+    width: 122px;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+
+/* **************** */
+.audiovisualM9{
+    background-image: url("../../../assets/Audio_visual/fondoM8.svg");
+    background-size: cover;
+    background-position: center;
+    height: 91dvh;
+    padding-top: 45px;
+}
+.audiovisualM9 .img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.audiovisualM9 div{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 25px;
+}
+.audiovisualM9 div img{
+    width: 80px;
+}
+.audiovisualM9 div .img3{
+    position: relative;
+    top: 60px;
+}

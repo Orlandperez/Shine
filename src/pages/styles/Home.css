@@ -1,0 +1,72 @@
+.hero {
+    background-image: url("../../assets/homeFondo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 91vh;
+    width: 100%;
+}
+.hero .caja1{
+    width: 300px;
+    position: relative;
+    top: 10%;
+    left: 8%;
+    font-size: 17px;
+}
+.hero .caja2{
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 85%;
+}
+.hero .caja3{
+    width: 270px;
+    height: auto;
+    position: absolute;
+    font-size: 17px;
+    bottom: 10%;
+    right: 10%;
+    text-align: end;
+}
+.hero .caja3 a{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 10px 17px;
+    border-radius: 50px;
+    transition: .2s;
+}
+.hero .caja3 a:hover{
+    color: orange;
+    padding: 13px 19px;
+}
+.hero .caja3 p{
+    padding: 20px 0 0;
+}
+
+
+/* Responsive */
+@media(max-width:500px){
+    .hero {
+        background-image: url("../../assets/fondoM.svg");
+        height: 90vh;
+        height: 90dvh;
+    }
+    .hero .caja1{
+        font-size: 12px;
+        width: 190px;
+    }
+    .hero .caja2{
+        font-size: 13px;
+        width: 50px;
+        top: 3%;
+        left: 80%;
+    }
+    .hero .caja3{
+        font-size: 14px;
+    }
+    .hero .caja3 a{
+        font-size: 35px;
+    }
+}

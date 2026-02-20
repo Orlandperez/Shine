@@ -1,0 +1,234 @@
+.iHero{
+    background-image: url("../../../assets/Ilustracion/fondo.png");
+    background-position: center;
+    background-size: cover;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iHero div{
+    width: 1100px;
+    position: relative;
+    bottom:130px;
+    right: 150px;
+}
+.iHero div h1{
+    color: #D17352;
+    font-size: 57px;
+    font-weight: 900;
+}
+
+
+/* ******************** */
+.i{
+    background-image: url("../../../assets/Ilustracion/fondo2.png");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+.i h1{
+    background-color: #8D589D;
+    width: 500px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: #E5B130;
+}
+.i .iContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.i .iContainer .info{
+    width: 410px;
+    position: relative;
+    right: 70px;
+    top: 80px;
+}
+.i .iContainer .info h2{
+    padding: 0 0 20px;
+}
+.i .iContainer .img{
+    width: 420px;
+}
+.i .iContainer .img2{
+    width: 350px;
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+/* **************** */
+.i2{
+    background-image: url("../../../assets/Ilustracion/fondo3.png");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.i2 .caja1{
+    width: 395px;
+}
+.i2 .caja2{
+    width: 550px;
+}
+.i2 .caja2 img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.i2 .caja3{
+    width: 400px;
+    position: relative;
+    bottom: 80px;
+}
+.i2 .caja3 .bolsa{
+    width: 440px;
+    position: relative;
+    right: 20px;
+}
+.i2 .caja3 img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+.ilustracionM{
+    height: 91dvh;
+    background-image: url("../../../assets/Ilustracion/fondo.svg");
+    background-size: cover;
+    background-position: center;
+}
+.ilustracionM div{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+}
+.ilustracionM div h1{
+    color: #D17352;
+    font-size: 29px;
+    font-weight: 900;
+}
+.ilustracionM div p{
+    font-size: 14px;
+}
+
+
+
+/* *************** */
+.ilustracionM2{
+    background-image: url("../../../assets/Ilustracion/fondoM2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    height: 91dvh;
+    padding-top: 70px;
+}
+.ilustracionM2 h1{
+    background-color: #8D589D;
+    color: #FAC617;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.ilustracionM2 div{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.ilustracionM2 div h2{
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+
+/* ************** */
+.ilustracionM3{
+    height: 91dvh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0;
+}
+.ilustracionM3 .img{
+    width: 200px;
+    position: relative;
+    left: 10%;
+}
+.ilustracionM3 .img2{
+    width: 200px;
+    position: relative;
+    left:40%;
+}
+
+
+
+
+/* ***************** */
+.ilustracionM4{
+    height: 91dvh;
+    padding-top: 50px;
+}
+.ilustracionM4 div{
+    width: 80%;
+    margin: 0 auto;
+}
+.ilustracionM4 div p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.ilustracionM4 div img{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* ******************** */
+.ilustracionM5{
+    background-image: url("../../../assets/Ilustracion/fondoM3.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    height: 90vh;
+}
+.ilustracionM5 .img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+.ilustracionM5 .img2{
+    display: block;
+    width: 82%;
+    margin: 0 auto;
+}

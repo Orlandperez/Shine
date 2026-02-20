@@ -1,0 +1,57 @@
+/* Pc */
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 50%;
+  left: 2%;
+  width: 96%;
+  z-index: 20;
+}
+.carousel-controls button{
+  font-size: 60px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  padding: 0 8px;
+  background-color: #bbbbbb8f;
+  color: white;
+}
+.carousel-controls .next{
+  position: absolute;
+  right: 0;
+}
+.carousel-controls .prev{
+  position: absolute;
+  left: 0;
+}
+
+
+/* Mobile */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  gap: 8px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 40;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.dot.active {
+  background: #007bff;
+}
