@@ -21,7 +21,7 @@ export default function About() {
           <div className="info">
             <img src={kirby} alt="" />
             <div>
-              <h2>Educacion</h2> <br />
+              <h2>Educacion</h2>
               <p>Formación en Diseño Gráfico (Facultad de Arquitectura, Diseño y Urbanismo - UBA).</p>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function About() {
               <p>Tengo 26 años y estudio Diseño Gráfico en la UBA, Argentina. Amo crear, explorar y meterme en cada idea con curiosidad y buena onda. Me inspiran las cosas distintas, los colores y los desafíos que te hacen pensar un poquito más. Siempre busco aprender para dar lo mejor y hacer trabajos que conecten, emocionen y se sientan auténticos.</p>
             </div>
             <div className="software">
-              <h2>Software</h2> <br />
+              <h2>Software</h2>
               <img src={icons} alt="" />
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function About() {
           <div className="info3">
             <img src={foto} alt="" />
             <ul>
-              <h2>Habilidades</h2> <br />
+              <h2>Habilidades</h2>
               <li>Identidad visual de la marca</li>
               <li>Editorial</li>
               <li>Packaging</li>

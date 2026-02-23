@@ -1,6 +1,7 @@
 .editorial{
 background-image: url("../../../assets/Editorial/fondo.png");
 background-position: center;
+background-repeat: no-repeat;
 height: 91vh;
 display: flex;
 flex-direction: column;

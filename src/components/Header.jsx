@@ -32,7 +32,7 @@ function Header() {
         <Link to= "/" onClick={closeMenu}>Hogar</Link>
         <Link to= "/about" onClick={closeMenu}>Acerca de mi</Link>
         <li>
-          <Link onClick={toggleDropdown}>Servicios <i className="bi bi-chevron-down"></i></Link>
+          <Link onClick={toggleDropdown}>Proyectos <i className="bi bi-chevron-down"></i></Link>
           { dropdownOpen && (
             <ul>
               <li onClick={closeMenu}><Link to="/identidadVisual">Identidad Visual</Link></li>

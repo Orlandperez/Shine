@@ -76,7 +76,7 @@ function Identidad_visual() {
           </div>
           <div>
             <h2>Tipografia</h2>
-            <img src={hys4} alt="" />
+            <img className='img2' src={hys4} alt="" />
             <p>La tipografía inclinada suma dinamismo y refuerza la idea de una marca en movimiento. En conjunto, la identidad mantiene una estética actual y accesible, pensada para un público que valora la buena calidad a precios competitivos</p>
           </div>
         </section>

@@ -24,7 +24,7 @@ function Editorial() {
       component: (
         <section className='editorial'>
           <div>
-            <h1>Editorial</h1>
+            <h1>EDITORIAL</h1>
             <p>Revistas, tapas y piezas editoriales.</p>
           </div>
         </section>
