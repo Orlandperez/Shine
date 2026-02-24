@@ -61,6 +61,10 @@ align-items: center;
     padding: 10px;
     border-radius: 5px;
 }
+.editorial2 .container h2{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
 .editorial2 .container p{
     font-size: 17px;
     margin: 0 0 20px;
@@ -124,16 +128,19 @@ align-items: center;
 /* Editorial 4 */
 .editorial4{
     height: 90vh;
+    width: 100%;
     background-image: url("../../../assets/Editorial/fondo3.png");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .editorial4 h1{
     background-color: #826768;
-    width: 550px;
+    width: 740px;
+    font-weight: 500;
     text-align: center;
     color: white;
     padding: 20px;
@@ -141,8 +148,8 @@ align-items: center;
 }
 .editorial4 .e3Container{
     display: flex;
-    justify-content: center;
-    width: 75%;
+    justify-content: space-around;
+    width: 89%;
     margin: 0 auto;
     margin-top: 50px;
     align-items: center;
@@ -159,7 +166,7 @@ align-items: center;
     gap: 2rem
 }
 .editorial4 .e3Container .img img{
-    width: 200px;
+    width: 220px;
 }
 
 

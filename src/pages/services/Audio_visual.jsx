@@ -49,7 +49,7 @@ function Audio_visual() {
               <h2>Ritmo visual</h2>
               <br />
               <p>Edición audiovisual realizada a partir de una secuencia de fotografías que simulan movimiento continuo. El ritmo visual se construye en diálogo con la música, acompañando el despliegue de las imágenes y potenciando el dinamismo de la pieza. <br />
-                La propuesta pone el foco en la visualización de las prendas en un entorno digital, reforzando una estética canchera y urbana para niñas, con una paleta no tradicional que incorpora el negro como rasgo identitario. El cierre presenta el logo de la marca manteniendo la misma lógica rítmica y visua</p>
+                La propuesta pone el foco en la visualización de las prendas en un entorno digital, reforzando una estética canchera y urbana para niñas, con una paleta no tradicional que incorpora el negro como rasgo identitario. El cierre presenta el logo de la marca manteniendo la misma lógica rítmica y visual.</p>
               <a href="https://drive.google.com/file/d/1D1JpGHbgaoygNpdV89htj0nZpDvi8v_e/view?usp=drive_link" target="_blank">Acceder</a>
             </div>
             <div className='img'>

@@ -8,6 +8,7 @@ import "../styles/services/Packaging.css"
 import falafe from "../../assets/Packaging/falapel.png"
 import falafe2 from "../../assets/Packaging/falapel2.png"
 import falafe3 from "../../assets/Packaging/falapel3.svg"
+import falafe4 from "../../assets/Packaging/falapel4.svg"
 
 function Packaging() {
     const isMobile = useIsMobile(500);
@@ -31,7 +32,8 @@ function Packaging() {
             <div className='caja1'>
               <h2>Diseño de packaging / Edición especial</h2>
               <br />
-              <p>Rediseño de un envase de producto masivo, originalmente comercializado en bolsa, adaptado a un nuevo formato en caja – edición especial. <br /> Se mantuvo la identidad original de la marca (logotipo, cromática, estilo gráfico e información), reorganizando los contenidos para su correcta adaptación al nuevo soporte.</p>
+              <p>Rediseño de un envase de producto masivo, originalmente comercializado en bolsa, adaptado a un nuevo formato en caja – edición especial. </p>
+              <p style={{ textIndent: "15px" }}>Se mantuvo la identidad original de la marca (logotipo, cromática, estilo gráfico e información), reorganizando los contenidos para su correcta adaptación al nuevo soporte.</p>
             </div>
             <div className='caja2'>
               <img src={falafe} alt="" />
@@ -52,6 +54,9 @@ function Packaging() {
             <li>Incorporación de receta y figura de chef invitada</li>
             <li>Enfoque en legibilidad, continuidad estilística y presentación</li>
           </ul>
+          <div>
+            <img src={falafe4} alt="" />
+          </div>
         </section>
       )
     }
@@ -73,7 +78,7 @@ function Packaging() {
           <h1>FALAFEL</h1>
           <div>
             <h2>Diseño de packaging / Edición especial</h2>
-            <p>Rediseño de un envase de producto masivo, originalmente comercializado en bolsa, adaptado a un nuevo formato en caja – edición especial. <br /> Se mantuvo la identidad original de la marca (logotipo, cromática, estilo gráfico e información), reorganizando los contenidos para su correcta adaptación al nuevo soporte.</p>
+            <p>Rediseño de un envase de producto masivo, originalmente comercializado en bolsa, adaptado a un nuevo formato en caja – edición especial. <br />     Se mantuvo la identidad original de la marca (logotipo, cromática, estilo gráfico e información), reorganizando los contenidos para su correcta adaptación al nuevo soporte.</p>
           </div>
         </section>
       )

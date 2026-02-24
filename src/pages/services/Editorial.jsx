@@ -37,7 +37,7 @@ function Editorial() {
           <div className='container'>
             <img src={mundo} alt="" />
             <div>
-              <h2>Revista "Mundo"</h2>
+              <h2>Revista "MUNDO"</h2>
               <p>Diseño editorial · Maquetación · Dirección visual</p>
               <p>Diseño de seis páginas editoriales a partir de textos provistos, aplicando los principales recursos del diseño editorial: jerarquía de información, grilla, tipografía y uso del color. El proyecto trabaja una estructura clara y consistente, con correcta organización de contenidos, buena legibilidad y una selección de imágenes acorde al estilo de la revista, su público y su identidad visual.</p>
             </div>

@@ -33,9 +33,10 @@
     justify-content: center;
 }
 .p1 h1{
-    width: 500px;
+    width: 640px;
     text-align: center;
     border: 1px solid black;
+    border-radius: 5px;
     padding: 10px 0;
     color: #92C95F;
 }
@@ -67,15 +68,22 @@
     height: 91vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.p2 div img{
+    width: 100%;
+}
+.p2 div{
+    width: 45%;
+    height: 70%;
 }
 .p2 ul{
+    width: 25%;
     border: 1px solid black;
-    width: 400px;
-    padding: 40px;
-    position: relative;
-    left: 250px;
-    top: 70px;
+    padding: 30px 60px;
+    border-radius: 5px;
 }
+
 
 
 

@@ -27,6 +27,8 @@
 .i{
     background-image: url("../../../assets/Ilustracion/fondo2.png");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,17 +36,18 @@
 }
 .i h1{
     background-color: #8D589D;
-    width: 500px;
+    width: 670px;
     text-align: center;
-    padding: 10px 0;
+    padding: 18px 0;
     border-radius: 5px;
+    font-weight: 600;
     color: #E5B130;
 }
 .i .iContainer{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 75%;
+    justify-content: space-evenly;
+    width: 72%;
     margin: 0 auto;
     gap: 1rem;
 }
@@ -52,18 +55,17 @@
     width: 410px;
     position: relative;
     right: 70px;
-    top: 80px;
 }
 .i .iContainer .info h2{
     padding: 0 0 20px;
 }
 .i .iContainer .img{
-    width: 420px;
+    width: 400px;
 }
 .i .iContainer .img2{
     width: 350px;
     position: relative;
-    bottom: 60px;
+    bottom: 50px;
 }
 
 
@@ -72,6 +74,8 @@
 .i2{
     background-image: url("../../../assets/Ilustracion/fondo3.png");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +85,7 @@
     width: 395px;
 }
 .i2 .caja2{
-    width: 550px;
+    width: 500px;
 }
 .i2 .caja2 img{
     width: 80%;
@@ -89,14 +93,17 @@
     margin: 0 auto;
 }
 .i2 .caja3{
-    width: 400px;
+    width: 300px;
     position: relative;
-    bottom: 80px;
+    bottom: 45px;
 }
 .i2 .caja3 .bolsa{
     width: 440px;
     position: relative;
     right: 20px;
+}
+.i2 .caja3 .bolsa2{
+    width: 405px;
 }
 .i2 .caja3 img{
     width: 100%;

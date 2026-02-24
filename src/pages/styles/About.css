@@ -59,6 +59,8 @@
 }
 .about-pc .info2 .software img{
     width: 450px;
+    position: relative;
+    right: 9px;
 }
 
 .about-pc .info3{
@@ -74,7 +76,7 @@
     width: 100%;
     border: 1px solid black;
     border-radius: 50%;
-    padding: 10px 1px;
+    padding: 6px 1px;
 }
 .about-pc .info3 ul{
     position: relative;

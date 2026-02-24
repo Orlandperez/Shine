@@ -34,10 +34,11 @@
 }
 .identidad2 h1{
     background-color: #B1DEF4;
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 600;
     padding: 15px 0;
     text-align: center;
-    width: 600px;
+    width: 570px;
     margin-bottom: 50px;
     border: 1px solid rgba(0, 0, 0, 0.593);
     border-radius: 10px;
@@ -47,8 +48,8 @@
     justify-content: center;
     gap: 3rem;
 }
-.identidad2 .container div{
-    width: 410px;
+.identidad2 .container .texto{
+    width: 290px;
     height: 500px;
 }
 .identidad2 .container div h2{
@@ -63,7 +64,7 @@
 }
 .identidad2 .container div p{
     font-size: 17px;
-    width: 84%;
+    
     margin-top: 50px;
 }
 .identidad2 .container div img{
@@ -71,6 +72,7 @@
 }
 .identidad2 .container .img{
     width: 700px;
+    height: 495px;
     display: flex;
     flex-direction: column;
     justify-content: end;

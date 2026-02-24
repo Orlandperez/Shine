@@ -35,20 +35,21 @@
 .a2 h1{
     background-color: black;
     color: white;
-    width: 500px;
+    font-weight: 600;
+    width: 600px;
     text-align: center;
     padding: 15px 0;
     border-radius: 5px;
 }
 .a2 .a2Container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 78%;
+    margin: 0 auto;
 }
 .a2 .a2Container .info{
     width: 440px;
-    position: relative;
-    left: 100px;
 }
 .a2 .a2Container .info p{
     font-size: 16px;
@@ -59,7 +60,7 @@
     text-align: center;
     display: block;
     background-color: black;
-    padding: 20px;
+    padding: 15px 0;
     border-radius: 40px;
     font-weight: 700;
     position: relative;
@@ -67,31 +68,30 @@
     text-decoration: none;
 }
 .a2 .a2Container .img{
-    width: 950px;
-    position: relative;
-    left: 150px;
+    width: 60%;
+    height: 600px;
 }
 
 .a2 .a2Container .img .foto1{
-    width: 200px;
-    position: relative;
-    bottom: 280px;
-    left: 150px;
+    width: 240px;
+    position: absolute;
+    left: 50%;
 }
 .a2 .a2Container .img .foto2{
-    width: 200px;
-    position: relative;
-    right: 150px;
+    width: 250px;
+    position: absolute;
+    bottom: 12%;
 }
 .a2 .a2Container .img .foto3{
-    width: 150px;
-    position: relative;
-    right: 150px;
+    width: 180px;
+    position: absolute;
+    right: 34%;
+    bottom: 10%;
 }
 .a2 .a2Container .img .foto4{
-    width: 400px;
-    position: relative;
-    right: 180px;
+    width: 450px;
+    position: absolute;
+    right: 10%;
 }
 
 
@@ -108,7 +108,8 @@
 .a3 h1{
     background-color: #1E0049;
     color: #F1D705;
-    width: 500px;
+    width: 700px;
+    font-weight: 600;
     padding: 18px 0;
     text-align: center;
     border-radius: 5px;
@@ -190,12 +191,14 @@
 }
 .a4 .info h1{
     background-color: #E8C7B6;
-    width: 550px;
+    width: 680px;
+    font-weight: 600;
     text-align: center;
     margin: 100px 0 ;
     padding: 18px 0;
     position: relative;
     right: 215px;
+    border-radius: 5px;
 }
 .a4 .info p{
     font-size: 17px;
@@ -209,7 +212,7 @@
     display: block;
     width: 200px;
     text-align: center;
-    padding: 17px 0;
+    padding: 15px 0;
     border-radius: 30px;
     font-weight: 700;
     position: relative;

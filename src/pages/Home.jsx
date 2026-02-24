@@ -14,7 +14,7 @@ function Home() {
       </div>
       <div className='caja3'>
         <a href="https://wa.me/qr/M24BWYWOAIO6E1" target="_blank"><i className="bi bi-whatsapp"></i></a>
-        <p>Estudiante de Diseño Grafico</p>
+        <p>Estudiante de Diseño Gráfico</p>
       </div>
     </section>
   )
