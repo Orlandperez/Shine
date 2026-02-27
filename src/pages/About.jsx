@@ -80,7 +80,7 @@ export default function About() {
                 <li>Audiovisual</li>
               </ul>
               <div>
-                <h2>Educacion</h2>
+                <h2>Educación</h2>
                 <p>Formación en Diseño Gráfico (Facultad de Arquitectura, Diseño y Urbanismo - UBA).</p>
               </div>
               <div>

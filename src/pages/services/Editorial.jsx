@@ -95,6 +95,7 @@ function Editorial() {
       component: (
         <section className='editorial5'>
           <div className='info'>
+            <h1>¿ Y SI ALGO SALE MAL?</h1>
             <h2>Fanzine</h2>
             <p>Fanzine de 6 páginas con tapa y dorso, desarrollado en formato A3 desplegable con póster en el reverso. El proyecto explora la ansiedad en estudiantes durante el proceso académico, utilizando la tipografía como recurso visual principal para expresar tensión, sobrecarga y estados emocionales. Se trabaja la jerarquía, los niveles de lectura y la relación entre texto e imagen tipográfica para lograr una pieza editorial clara y de fuerte impacto.</p>
             <img src={libro4} alt="" />
@@ -113,7 +114,7 @@ function Editorial() {
       component: (
         <section className='editorialM'>
           <div>
-            <h1>Editorial</h1>
+            <h1>EDITORIAL</h1>
             <p>Revistas, tapas y piezas editoriales.</p>
           </div>
         </section>

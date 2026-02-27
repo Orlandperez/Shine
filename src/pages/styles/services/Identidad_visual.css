@@ -250,9 +250,10 @@
     text-align: center;
     border: none;
     border-radius: 10px;
+    font-weight: 500;
     padding: 5px 0;
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .identidadM2 div{
     width: 80%;
@@ -267,9 +268,9 @@
 }
 .identidadM2 div span{
     display: block;
-    height: 1.4px;
+    height: 1px;
     width: 150px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.908);
     position: relative;
     right: 35px;
     margin-bottom: 20px;

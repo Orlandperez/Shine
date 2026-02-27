@@ -1,16 +1,22 @@
-# React + Vite
+# Portafolio — Resumen técnico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto personal: portafolio web desarrollado con React y Vite.
 
-Currently, two official plugins are available:
+Tecnologías principales:
+- Lenguajes: HTML, CSS, JavaScript (ES6+), JSX
+- Framework: React
+- Herramienta de desarrollo: Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Librerías y utilidades incluidas:
+- `react`, `react-dom`
+- `react-router-dom` (ruteo)
+- `react-hook-form` (formularios)
+- `@vitejs/plugin-react` (integración React + Vite)
+- ESLint y plugins relacionados (estilo y hooks)
 
-## React Compiler
+Comandos rápidos:
+- Desarrollo: `npm run dev`
+- Build de producción: `npm run build`
+- Linter: `npm run lint`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este README es intencionalmente breve; para más detalles, revisa el `package.json`.

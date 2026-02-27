@@ -108,7 +108,7 @@
     color: #FFDA8A;
 }
 .packagingM div p{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
@@ -177,8 +177,8 @@
 .packagingM4{
     height: 91dvh;
     background-image: url("../../../assets/Packaging/fondo3.svg");
-    background-position: 100%;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;

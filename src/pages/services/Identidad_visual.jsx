@@ -137,7 +137,7 @@ function Identidad_visual() {
           <div>
             <h2>Marca final</h2>
             <span></span>
-            <p>El diseño de la identidad visual de hys reyes surge a partir de la necesidad de comunicar los valores esenciales de la marca dentro del rubro mayorista de indumentaria. La propuesta se centra en transmitir movimiento continuo, reflejando el flujo permanente de reposición y abastecimiento que caracteriza al negocio.</p>
+            <p>Identidad visual desarrollada para hys Reyes, comercio mayorista caracterizado por su renovación constante, calidad y accesibilidad. El sistema gráfico transmite dinamismo y cercanía, mientras que la corona representa liderazgo y una base conceptual vinculada a la fe, el trabajo honesto y el crecimiento sostenido.</p>
           </div>
         </section>
       )

@@ -173,20 +173,32 @@ align-items: center;
 
 /* Editorial5 */
 .editorial5{
-    background-image: url("../imagenes/editorial/fondo4.png");
+    background-image: url("../../../assets/Editorial/fondo4.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 4rem;
     height: 90vh;
 }
 .editorial5 .info{
-    width: 470px;
-    position: relative;
-    top: 60px;
+    width: 500px;
+    margin-top: 120px;
+}
+.editorial5 .info h1{
+    color: #B4231C;
+    padding: 18px 0;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 37%;
+    background-color: #C4C4C4;
+    position: absolute;
+    left: 0;  
+    top: 11%;
 }
 .editorial5 .info img{
     width: 300px;
@@ -264,12 +276,14 @@ align-items: center;
     text-align: center;
     padding: 10px 0;
     margin: 30px 0;
+    border-radius: 5px;
 }
 .editorialM2 div p{
     margin-bottom: 10px;
+    font-weight: 500;
 }
 .editorialM2 div img{
-    width: 85%;
+    width: 100%;
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -334,9 +348,9 @@ align-items: center;
 .editorialM5 div {
     width: 80%;
     margin: 0 auto;
-    padding: 5px 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    padding: 20px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.686);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.668);
 }
 .editorialM5 div h3{
     font-size: 14px;
@@ -364,6 +378,8 @@ align-items: center;
     background-color: #826768;
     color: white;
     width: 80%;
+    padding: 10px 0;
+    border-radius: 5px;
     margin: 0 auto;
     text-align: center;
     font-size: 30px;
@@ -418,6 +434,8 @@ align-items: center;
     background-color: #E3E3E3;
     color: #B94B4F;
     width: 80%;
+    padding: 10px 0;
+    border-radius: 5px;
     margin: 0 auto;
     text-align: center;
     font-size: 25px;
