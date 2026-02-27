@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import "./Header.css"
-import SVGComponen from "./SVGComponen"
+import logo from "../assets/logo.svg"
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState (false)
@@ -23,7 +23,7 @@ function Header() {
   return (
     <header>
       <Link className="logo-contain" to="/" onClick={closeMenu}>
-        <SVGComponen className="logo" />
+        <img src={logo} className="logo" alt="Logo" />
       </Link>
 
 
