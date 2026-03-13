@@ -52,14 +52,22 @@ function Contact() {
             <button onClick={() => setMensajeEnviado(false)}>Enviar otro mensaje</button>
           </div>
         ):(
-          <form onSubmit={handleSubmit(enviar)} className='contact-form'>
-          <input type="text" placeholder='¡Hola! ¡Como te llamas?' required {...register("nombre", { required: true })}/>
-          <input type="text" placeholder='Nombre de tu empresa' {...register("empresa")}/>
-          <input type="text" placeholder='Tu numero de celular' {...register("celular")}/>
-          <input type="text" placeholder='Tu correo electronico' required {...register("email", { required: true })}/>
-          <textarea name="" id="" placeholder='¡Como podemos ayudarte?' {...register("mensaje")}></textarea>
-          <button>Enviar mensaje</button>
-        </form>
+          <>
+            <form onSubmit={handleSubmit(enviar)} className='contact-form'>
+              <input type="text" placeholder='¡Hola! ¡Como te llamas?' required {...register("nombre", { required: true })} />
+              <input type="text" placeholder='Nombre de tu empresa' {...register("empresa")} />
+              <input type="text" placeholder='Tu numero de celular' {...register("celular")} />
+              <input type="text" placeholder='Tu correo electronico' required {...register("email", { required: true })} />
+              <textarea name="" id="" placeholder='¡Como podemos ayudarte?' {...register("mensaje")}></textarea>
+              <button>Enviar mensaje</button>
+            </form>
+            <div className='info2M'>
+              <a href="https://wa.me/qr/M24BWYWOAIO6E1" target="_blank"><i className="bi bi-whatsapp"></i></a>
+              <a href="mailto:mveronicaangela@gmail.com"><i className="bi bi-envelope"></i></a>
+              <a href="https://www.behance.net/veronicmamani" target='_blank'><i className="bi bi-behance"></i></a>
+              <a href="http://www.linkedin.com/in/veronica-angela-mamani-7993aa345" target="_blank"><i className="bi bi-linkedin"></i></a>
+            </div>
+          </>
         )}
       </div>
     </section>
