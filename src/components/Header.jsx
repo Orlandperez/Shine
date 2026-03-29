@@ -43,6 +43,7 @@ function Header() {
             </ul>
           )}
         </li>
+        <Link to= "/services" onClick={closeMenu}>Servicios</Link>
         <Link to= "/contact" onClick={closeMenu}>Contacto</Link>
       </nav>
 

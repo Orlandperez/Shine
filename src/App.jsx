@@ -7,14 +7,15 @@ import Header from "./components/Header"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import Services from "./pages/Services"
 
 
 // Importar servicios
-import AudioVisual from "./pages/services/Audio_visual"
-import Editorial from "./pages/services/Editorial"
-import IdentidadVisual from "./pages/services/Identidad_visual"
-import Ilustracion from "./pages/services/Ilustracion"
-import Packaging from "./pages/services/Packaging" 
+import AudioVisual from "./pages/proyectos/Audio_visual"
+import Editorial from "./pages/proyectos/Editorial"
+import IdentidadVisual from "./pages/proyectos/Identidad_visual"
+import Ilustracion from "./pages/proyectos/Ilustracion"
+import Packaging from "./pages/proyectos/Packaging" 
 
 function App() {
 
@@ -25,8 +26,9 @@ function App() {
         <Route path="/" element= {<Home/>}/>
         <Route path="/about" element= {<About/>}/>
         <Route path="/contact" element= {<Contact/>}/>
+        <Route path="/services" element= {<Services/>}/>
 
-        {/* Servicios */}
+        {/* Proyectos */}
         <Route path="/audioVisual" element= {<AudioVisual/>}/>
         <Route path="/editorial" element= {<Editorial/>}/>
         <Route path="/identidadVisual" element= {<IdentidadVisual/>}/>
